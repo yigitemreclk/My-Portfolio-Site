@@ -77,4 +77,85 @@ header {
 
 /* HEADER KISMI TAMAMLANDI */
 
+.main-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.main-image img{
+    width: 251px;
+    height: 223px;
+}
 
+.text-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 55;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+
+.gradient-text{
+    background: linear-gradient(90deg, #ec0000, #1e09dd, #0ad446, #8a2be2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.paragraf-info{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(212, 212, 212);
+    width: 500px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.one-link, .two-link{
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.one-link {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+
+}
+
+.one-link:hover{
+  border: 2px solid white;
+  background-color: #161513;
+  color: white;
+  transition: 0.5s;
+}
+
+.two-link{
+  border: 2px solid white;
+  background-color: #161513;
+  color: white;
+  transition: 0.5s;
+}
+.two-link:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}

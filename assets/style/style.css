@@ -159,3 +159,32 @@ header {
   color: black;
   transition: 0.5s;
 }
+
+.experience-text{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  color: white;
+  letter-spacing: 2px;
+}
+.experience{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+}
+.experience img{
+  height: 35px;
+}
+.project-content{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.project-text{
+  background: linear-gradient(to right ,#ac0505, #17fbff , #6a00ff, #2a065c, #09c46c, #b4950a,#6a00ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
